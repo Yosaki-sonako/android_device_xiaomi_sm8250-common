@@ -209,11 +209,10 @@ endif
 
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-<<<<<<< HEAD
-=======
+
     $(COMMON_PATH)/configs/vintf/framework_compatibility_dolby.xml \
     $(COMMON_PATH)/configs/vintf/framework_compatibility_matrix.xml \
->>>>>>> feea3cb (sm8250-common: Include Sony Dolby Atmos)
+
     hardware/qcom-caf/common/vendor_framework_compatibility_matrix.xml \
     hardware/xiaomi/vintf/xiaomi_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
